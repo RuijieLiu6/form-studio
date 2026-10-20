@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "mountain-studio-references-1",
+  "verifiedDateLocal": "2026-10-11",
+  "purpose": "Sources and design interpretations for preliminary tower, terrace support, Mega-floor band, podium, site-placement and tower-cluster modelling.",
+  "sources": [
+    {
+      "id": "oxman-socializing-sky",
+      "title": "Robert Oxman — Socializing the Sky: The Typology of Tower Clusters",
+      "url": "https://oroeditions.com/product/socializing-the-sky",
+      "kind": "publisher-primary-book-description",
+      "verifiedDateLocal": "2026-10-14",
+      "readStatus": "Publisher description and selected public preview images read directly; complete book and table of contents not available",
+      "verifiedFacts": [
+        "ORO Editions identifies the author as Robert Oxman, the title/subtitle as Socializing the Sky: The Typology of Tower Clusters, ISBN 9781957183954, and the main publication listing as 2024.",
+        "The description names Tower Cluster as a multi-tower, multifunctional typology and identifies sky plazas, sky bridges, sky pools and outlook decks as amenity categories.",
+        "It describes distributing social, cultural, commercial and entertainment facilities through a vertical campus."
+      ],
+      "modellingUse": "The named amenity categories inform four authored Studio interpretations: Sky-bridge pair, Sky-plaza cluster, Vertical campus and Outlook-deck pair.",
+      "limitations": "Preset names, dimensions, tower counts, layouts and structural reservations are Studio interpretations, not a verified reproduction of the book's full taxonomy or case studies. The unavailable full text has not been read. No pool loading or structural analysis is provided. The listing contains inconsistent legacy publication metadata; 2024 is corroborated by ACC Art Books."
+    },
+    {
+      "id": "oxman-socializing-sky-acc",
+      "title": "ACC Art Books — Socializing the Sky publication record",
+      "url": "https://www.accartbooks.com/uk/book/socializing-the-sky/",
+      "kind": "official-distributor-book-record",
+      "verifiedDateLocal": "2026-10-14",
+      "readStatus": "Official distributor title, author, ISBN and publication record read directly",
+      "verifiedFacts": [
+        "ACC identifies Robert Oxman as author, ORO Editions as publisher, ISBN 9781957183954, and publication on 18 June 2024."
+      ],
+      "modellingUse": "Corroborates the book identity and publication year.",
+      "limitations": "This bibliographic record does not establish the book's complete typological taxonomy or validate the generated designs."
+    },
+    {
+      "id": "bruegel-babel-1563",
+      "title": "Pieter Bruegel the Elder — The Tower of Babel, 1563",
+      "url": "https://www.khm.at/en/objectdb/detail/323/",
+      "kind": "museum-primary-source",
+      "readStatus": "official museum search-index record; direct page returned 403",
+      "verifiedFacts": [
+        "Kunsthistorisches Museum identifies the Vienna painting as The Tower of Babel, dated 1563."
+      ],
+      "modellingUse": "Terraced, tapering tower silhouette as an architectural reference.",
+      "limitations": "The spiral landscape and structural system in this tool are our interpretation, not a reconstruction or engineering analysis of the painting."
+    },
+    {
+      "id": "azrieli-spiral-kpf",
+      "title": "KPF — Azrieli Spiral Tower",
+      "url": "https://www.kpf.com/project/azrieli-spiral-tower",
+      "kind": "architect-primary-source",
+      "readStatus": "project text read directly",
+      "verifiedFacts": [
+        "The project uses an elliptical footprint and a scroll-like spiraling façade.",
+        "The outer layer wraps the retail base; plates narrow upward for offices and become smaller for residential and hotel uses.",
+        "The project describes public gathering space at its pinnacle."
+      ],
+      "modellingUse": "An ellipse, changing plate sizes, independent plan rotation and rotating level terrace positions form a starting typology.",
+      "limitations": "This tool's level planted terraces and diagonal bracing are original design options. KPF's text does not establish them as the project's structural system or a continuously accessible landscape path."
+    },
+    {
+      "id": "vancouver-vbbl-2025",
+      "title": "City of Vancouver — Building By-law 2025",
+      "url": "https://vancouver.ca/your-government/vancouver-building-bylaw.aspx",
+      "kind": "official-jurisdiction",
+      "readStatus": "City portal read directly",
+      "verifiedFacts": [
+        "VBBL 2025 generally came into effect September 15, 2025.",
+        "For new permits, seismic provisions apply from September 15, 2026; the Chief Building Official may accept specified in-stream deferrals until March 8, 2027."
+      ],
+      "modellingUse": "Identifies the jurisdiction and edition for coordination flags; the tool assumes a new project.",
+      "limitations": "No permit history, geotechnical inputs, structural analysis or full compliance assessment is supplied. The current full consolidation has not been audited by this tool."
+    },
+    {
+      "id": "vbbl-amendment-14688",
+      "title": "City of Vancouver — By-law 14688, section 15",
+      "url": "https://bylaws.vancouver.ca/consolidated/14688.pdf",
+      "kind": "official-enacted-amendment",
+      "readStatus": "section 15 read directly",
+      "verifiedFacts": [
+        "Amends Division B 3.2.6.1.(1): high-building provisions apply above 18 m measured from grade to the top storey's floor level, subject to stated exceptions.",
+        "A further trigger concerns Group B Division 2 or 3 floor areas above the third storey. Sentence (2) is deleted."
+      ],
+      "modellingUse": "A geometry-based high-building applicability flag using the top storey's floor elevation.",
+      "limitations": "Sentence (3) exception conditions and the complete current consolidated code remain for professional review; a trigger flag is not a compliant design."
+    },
+    {
+      "id": "ching-structures",
+      "title": "Ching, Onouye and Zuberbuhler — Building Structures Illustrated",
+      "url": "https://www.wiley.com/en-es/Building%2BStructures%2BIllustrated%3A%2BPatterns%2C%2BSystems%2C%2Band%2BDesign%2C%2B2nd%2BEdition-p-9781118458358",
+      "kind": "provided-book-reference",
+      "readStatus": "Provided local High-Rise Structures chapter, 2013 export; its edition is not verified as the linked second edition",
+      "modellingUse": "Local chapter pages 6 and 9: floor diaphragms; pages 11, 13, 33 and 34: core and outrigger relationships; pages 49 and 50: perimeter diagrid concepts.",
+      "limitations": "Diagonal members are schematic load-path reservations, with no stiffness, capacity, drift, buckling or connection checks."
+    },
+    {
+      "id": "allen-iano-preliminary",
+      "title": "Allen and Iano — The Architect's Studio Companion",
+      "url": "https://www.wiley.com/en-ae/the-architect%27s-studio-companion-rules-of-thumb-for-preliminary-design-7th-edition-p-9781119826798",
+      "kind": "provided-book-reference",
+      "readStatus": "Provided local fifth edition, 2012; linked seventh-edition contents not read",
+      "modellingUse": "Printed pages 48–51: continuous vertical supports, central balanced cores and sensitivity of tall buildings to form; printed page 118: preliminary flat-plate bay coordination.",
+      "limitations": "Rules of thumb are early design guidance and do not establish Vancouver code compliance or engineered member dimensions."
+    },
+    {
+      "id": "sarkisian-tall",
+      "title": "Mark Sarkisian — Designing Tall Buildings: Structure as Architecture",
+      "url": "https://www.routledge.com/Designing-Tall-Buildings-Structure-as-Architecture/Sarkisian/p/book/9781003124283",
+      "kind": "provided-book-reference",
+      "readStatus": "Publisher description and contents previously verified; no book pages available",
+      "modellingUse": "Framework for considering tower form and structural systems together.",
+      "limitations": "No numeric sizing rule or structural performance claim is extracted from unavailable book contents."
+    },
+    {
+      "id": "sandaker-structural-basis",
+      "title": "Sandaker, Eggen and Cruvellier — The Structural Basis of Architecture",
+      "url": "https://www.routledge.com/The-Structural-Basis-of-Architecture/Sandaker-Eggen-Cruvellier/p/book/9781138651999",
+      "kind": "provided-book-reference",
+      "readStatus": "Publisher catalogue previously verified; no book pages available",
+      "modellingUse": "Structural arrangement as part of architectural expression.",
+      "limitations": "No numeric sizing rule is extracted from unavailable book contents."
+    },
+    {
+      "id": "los-grillos-aeu",
+      "title": "AEU Arquitectos — Jardín Infantil Los Grillos",
+      "url": "https://www.aeu.com.co/sector-institucional/comfama-los-grillos",
+      "kind": "architect-primary-source",
+      "readStatus": "Architect-owned project text read directly",
+      "verifiedFacts": [
+        "AEU identifies this as its winning 2016 Comfama private-competition proposal in La Estrella, Antioquia, Colombia.",
+        "The project organizes low organic classroom volumes around a central circular courtyard, with open circulation and a public entry plaza linking the park and neighbourhood."
+      ],
+      "modellingUse": "Courtyard, open passages, garden islands and gathering areas inform the public-podium spatial concept.",
+      "limitations": "The raised high-rise podium, pilotis, editable outline and ground clearance are our interpretation. The source does not establish their structural system or dimensions; no project imagery is reused."
+    },
+    {
+      "id": "schoeck-cantilever-transfer",
+      "title": "Schöck — Cantilever balcony connection and force transfer",
+      "url": "https://www.schoeck.com/en/isokorb-t-k",
+      "kind": "manufacturer-primary-technical-description",
+      "readStatus": "Official product description verified through indexed text",
+      "verifiedFacts": [
+        "The described cantilever balcony connector transfers negative bending moment and positive shear forces."
+      ],
+      "modellingUse": "Supports showing an explicit terrace-to-interior attachment and gravity-path intention rather than a floating strip.",
+      "limitations": "This product is an example of connection behaviour, not a selected or sized connection for this tower. Beam sections, core-wall anchorage, thermal breaks, capacity, deflection and reinforcement remain unengineered."
+    },
+    {
+      "id": "rain-city-green-roofs",
+      "title": "City of Vancouver — Rain City Green Roof Best Practices Guide",
+      "url": "https://vancouver.ca/files/cov/rain-city-green-roof-best-practices-guide.pdf",
+      "kind": "official-city-design-guidance",
+      "readStatus": "Official guide sections on structural loading verified through indexed text; complete PDF exceeded retrieval limit",
+      "verifiedFacts": [
+        "Saturated growing medium adds load to the supporting structure.",
+        "Anticipated mature vegetation weight should be included when determining loads transmitted to the supporting rooftop structure."
+      ],
+      "modellingUse": "Keep planting separate from clear standing/passage space and identify saturated medium, mature planting, drainage and waterproofing as coordination items.",
+      "limitations": "Planter and planting volumes are geometric proxies. The tool has no specified soil assembly, water-retention design, calculated weights or capacity assessment."
+    },
+    {
+      "id": "steelconstruction-trusses",
+      "title": "SteelConstruction.info — Trusses: types, design and applications in buildings",
+      "url": "https://steelconstruction.info/topics/design/trusses",
+      "kind": "primary-industry-technical-guidance",
+      "readStatus": "Technical page read directly; SCI/BCSA-linked steel construction guidance",
+      "verifiedFacts": [
+        "Warren uses a triangular web; conventional gravity-loaded Pratt examples place diagonals in tension.",
+        "Vierendeel uses vertical web members and rigid joints; members carry bending, axial force and shear.",
+        "Reversed loading and out-of-plane compression-member restraint require consideration."
+      ],
+      "modellingUse": "Shared Warren/Pratt/Vierendeel-frame web vocabulary and explicit joint/force-behaviour limits for terrace and Mega-floor studies.",
+      "limitations": "The tool selects geometry, not member forces. Simply supported roof-truss examples do not determine cantilever or outrigger force signs, Vancouver compliance, sections, joints or capacity. No source span/depth rule is adopted."
+    },
+    {
+      "id": "fhwa-howe-trusses",
+      "title": "FHWA — Covered Bridge Manual, Chapter 14: Connections",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/structures/04098/14.cfm",
+      "kind": "official-government-technical-manual",
+      "readStatus": "Chapter text read directly, including Howe bearing-block discussion",
+      "verifiedFacts": [
+        "The conventional Howe discussion describes compression diagonals and tension verticals and considers load reversal."
+      ],
+      "modellingUse": "Howe web-pattern vocabulary; qualify example force directions by loading and support conditions.",
+      "limitations": "This is historical covered-bridge guidance, not a design method for the tower. Timber, bridge connection details and member dimensions are not transferred to this model."
+    },
+    {
+      "id": "ctbuh-outrigger-guide",
+      "title": "CTBUH / Council on Vertical Urbanism — Outrigger Design for High-Rise Buildings",
+      "url": "https://verticalurbanism.org/resources/research-projects/outrigger-design-for-high-rise-buildings/",
+      "previewUrl": "https://store.ctbuh.org/PDF_Previews/Books/2017_CTBUHOutriggerGuide_Preview.pdf",
+      "kind": "primary-professional-council-guidance",
+      "readStatus": "Council project page read directly; official 2017 second-edition preview verified through indexed text; complete book not read",
+      "verifiedFacts": [
+        "The Council identifies differential column shortening and construction sequence as outrigger-system design concerns.",
+        "The official preview describes core/outrigger/perimeter-column interaction and belt participation."
+      ],
+      "modellingUse": "Mega-floor interpretation as core-to-real-continuous-column outrigger bands and a closed belt, with explicit coordination limits.",
+      "limitations": "No optimal band locations, stiffness gain, drift, forces, member capacity or engineered megacolumn sizing is extracted. The app does not implement a structural analysis model or hybrid/damped outrigger design."
+    },
+    {
+      "id": "arcelormittal-highrise-guide",
+      "title": "ArcelorMittal — High-rise buildings, outrigger and super-floor guidance",
+      "url": "https://constructalia.arcelormittal.com/files/5_13_High-rise%20buildings_web--7e4e8f7695921c51709ed8887e80c8d2.pdf",
+      "kind": "manufacturer-primary-design-guide",
+      "readStatus": "Official indexed guide text verified; complete PDF not audited",
+      "verifiedFacts": [
+        "The guide discusses outrigger/belt systems located at mechanical or refuge levels, described as super floors.",
+        "It identifies interference with occupied space, diaphragm behaviour and differential core/column deformation as design considerations."
+      ],
+      "modellingUse": "Reserve visible structural depth at selected service bands and distinguish the space reservation from programme assignment.",
+      "limitations": "The model's Mega-floor name is its own outrigger/belt interpretation. Bands are not automatically approved refuge floors, and their location/depth is not an optimized or capacity-verified design."
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "sky-bridge-pair",
+      "label": "Sky-bridge pair — Studio interpretation",
+      "sourceIds": ["oxman-socializing-sky"],
+      "description": "An authored pair of towers with elevated linking decks interprets the book's sky-bridge amenity category. Tower layout, link levels and member reservations are editable design choices, not a reproduced book type."
+    },
+    {
+      "id": "sky-plaza-cluster",
+      "label": "Sky-plaza cluster — Studio interpretation",
+      "sourceIds": ["oxman-socializing-sky"],
+      "description": "An authored tower cluster with a shared elevated gathering deck interprets the book's sky-plaza amenity category. Public access, occupancy, wind comfort, egress and structural capacity remain to be designed."
+    },
+    {
+      "id": "vertical-campus",
+      "label": "Vertical campus — Studio interpretation",
+      "sourceIds": ["oxman-socializing-sky"],
+      "description": "An authored arrangement of towers and amenities at several actual floor levels interprets the book's vertical-campus concept. Programme labels reserve possible uses rather than establishing social performance or code-compliant circulation."
+    },
+    {
+      "id": "outlook-deck-pair",
+      "label": "Outlook-deck pair — Studio interpretation",
+      "sourceIds": ["oxman-socializing-sky"],
+      "description": "An authored tower pair with a shared upper viewing deck interprets the book's outlook-deck amenity category. Deck geometry and supporting members show design intent; visibility, access and capacity are not verified."
+    },
+    {
+      "id": "babel-garden",
+      "label": "Babel Garden",
+      "sourceIds": [
+        "bruegel-babel-1563",
+        "azrieli-spiral-kpf"
+      ],
+      "description": "Original combination of a tapering, terraced elliptical tower with independent plan rotation and level planted terraces whose positions rotate around the tower. It is a starting concept rather than a copy of either reference."
+    },
+    {
+      "id": "landscape",
+      "label": "Floor-attached level terraces",
+      "sourceIds": [
+        "schoeck-cantilever-transfer",
+        "rain-city-green-roofs"
+      ],
+      "description": "Closed level deck reservations attached to their own floors, with solid radial beams or trussed support assemblies, edge collectors, bearing blocks, guard-panel reservations and a standing/passage zone separate from planting. Geometry shows intended attachment; member/connection capacity, accessible access, fire safety and saturated planting loads require design."
+    },
+    {
+      "id": "public-podium",
+      "label": "Courtyard and public podium",
+      "sourceIds": [
+        "los-grillos-aeu"
+      ],
+      "description": "Editable podium outlines, open passages, optional circular court and garden islands interpret the reference courtyard/plaza organization. Raising occupied slabs on pilotis to reserve an open covered public ground is our high-rise adaptation, not a reconstruction of AEU's kindergarten."
+    },
+    {
+      "id": "placement",
+      "label": "Whole-building site placement",
+      "description": "A plan handle translates all generated building, terrace, podium, support and landscape geometry together within the fixed supplied site and city. Placement is retained in JSON and added once alongside the source origin in native Rhino export."
+    },
+    {
+      "id": "structure",
+      "label": "Diagonal structure",
+      "description": "Editable connected perimeter members express possible gravity/lateral load paths. Their appearance cannot demonstrate resistance to shear, overturning, torsion, wind or seismic demand."
+    },
+    {
+      "id": "truss-patterns",
+      "label": "Shared support web pattern",
+      "sourceIds": [
+        "steelconstruction-trusses",
+        "fhwa-howe-trusses"
+      ],
+      "description": "One Warren/Pratt/Howe/Vierendeel-frame pattern is shared by active trussed terrace supports and Mega-floor bands. It selects web geometry; the accompanying authored schematic follows a generated member graph. Support/loading conditions determine force directions. Vierendeel reserves rigid-joint frame action, not a pin-jointed triangular truss."
+    },
+    {
+      "id": "mega-floor-bands",
+      "label": "Mega-floor — outrigger + belt study",
+      "sourceIds": [
+        "ctbuh-outrigger-guide",
+        "arcelormittal-highrise-guide"
+      ],
+      "description": "Independent bands connect core-wall anchors to actual continuous gravity-column nodes, with a closed belt joining the same nodes. Band count and actual-storey depth reserve service/structural space; mechanical programme is not assigned or deducted from GFA. Locations, capacity and lateral performance remain unoptimized and uncalculated."
+    }
+  ],
+  "codeProfile": {
+    "edition": "Vancouver Building By-law 2025, No. 14343, with section 15 of amendment 14688",
+    "assumption": "New conceptual project as of October 11, 2026",
+    "highBuildingTopFloorTriggerM": 18,
+    "comparison": "strictly greater than",
+    "measurement": "grade to floor level of top storey",
+    "exemptions": "Review required",
+    "fullCurrentConsolidationAudited": false,
+    "structuralAssessment": "Not performed",
+    "coordinateBasis": "Metres in the provided schematic competition model; not a surveyed or georeferenced site"
+  }
+}
